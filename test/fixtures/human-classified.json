@@ -1,0 +1,42 @@
+{
+  "policy": {
+    "skipHuman": false
+  },
+  "snapshot": {
+    "authorLogin": "octocat",
+    "body": "Add login form",
+    "commits": [
+      {
+        "message": "Add login form",
+        "authorName": "Mona",
+        "authorEmail": "mona@github.com",
+        "authorLogin": "octocat",
+        "committerName": "Mona",
+        "committerEmail": "mona@github.com",
+        "committerLogin": "octocat"
+      }
+    ],
+    "files": [
+      {
+        "path": "src/auth/login.ts",
+        "additions": 30,
+        "deletions": 0
+      },
+      {
+        "path": "src/auth/login.test.ts",
+        "additions": 10,
+        "deletions": 0
+      }
+    ]
+  },
+  "expect": {
+    "outcome": "needs_line_by_line",
+    "signals": [
+      "auth"
+    ],
+    "commentIncludes": [
+      "skip-human is off",
+      "authentication"
+    ]
+  }
+}

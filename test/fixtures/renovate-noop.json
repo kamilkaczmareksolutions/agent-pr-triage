@@ -1,0 +1,29 @@
+{
+  "snapshot": {
+    "authorLogin": "renovate[bot]",
+    "body": "Update dependency",
+    "commits": [
+      {
+        "message": "Update dependency",
+        "authorName": "renovate[bot]",
+        "authorEmail": "renovate[bot]@users.noreply.github.com",
+        "authorLogin": "renovate[bot]",
+        "committerName": "renovate[bot]",
+        "committerEmail": "renovate[bot]@users.noreply.github.com",
+        "committerLogin": "renovate[bot]"
+      }
+    ],
+    "files": [
+      {
+        "path": "package.json",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  "expect": {
+    "outcome": "skip",
+    "signals": [],
+    "commentIncludes": []
+  }
+}

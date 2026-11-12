@@ -1,0 +1,37 @@
+{
+  "snapshot": {
+    "authorLogin": "copilot-swe-agent[bot]",
+    "body": "",
+    "commits": [
+      {
+        "message": "Add helper",
+        "authorName": "copilot-swe-agent",
+        "authorEmail": "198982749+copilot-swe-agent[bot]@users.noreply.github.com",
+        "authorLogin": "copilot-swe-agent[bot]",
+        "committerName": "copilot-swe-agent",
+        "committerEmail": "198982749+copilot-swe-agent[bot]@users.noreply.github.com",
+        "committerLogin": "copilot-swe-agent[bot]"
+      }
+    ],
+    "files": [
+      {
+        "path": "src/helper.ts",
+        "additions": 5,
+        "deletions": 0
+      },
+      {
+        "path": "src/helper.test.ts",
+        "additions": 4,
+        "deletions": 0
+      }
+    ]
+  },
+  "expect": {
+    "outcome": "skim_ok",
+    "signals": [],
+    "commentIncludes": [
+      "GitHub Copilot",
+      "Skim ok."
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "snapshot": {
+    "authorLogin": "cursoragent",
+    "body": "Made with Cursor",
+    "commits": [
+      {
+        "message": "Update\n\nCo-authored-by: Cursor <cursoragent@cursor.com>",
+        "authorName": "Cursor",
+        "authorEmail": "cursoragent@cursor.com",
+        "authorLogin": "cursoragent",
+        "committerName": "Cursor",
+        "committerEmail": "cursoragent@cursor.com",
+        "committerLogin": "cursoragent"
+      }
+    ],
+    "files": [
+      {
+        "path": "src/auth/session.ts",
+        "additions": 12,
+        "deletions": 0
+      },
+      {
+        "path": "src/auth/session.test.ts",
+        "additions": 6,
+        "deletions": 0
+      },
+      {
+        "path": "package.json",
+        "additions": 2,
+        "deletions": 0
+      }
+    ]
+  },
+  "expect": {
+    "outcome": "needs_line_by_line",
+    "signals": [
+      "auth",
+      "dependencies"
+    ],
+    "commentIncludes": [
+      "authentication",
+      "dependency manifest"
+    ]
+  }
+}

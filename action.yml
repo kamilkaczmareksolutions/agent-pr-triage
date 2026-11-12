@@ -1,0 +1,46 @@
+name: Agent PR triage
+description: Label a coding-agent pull request as needing a line-by-line review or as safe to skim.
+author: Kamil Kaczmarek
+branding:
+  icon: eye
+  color: gray-dark
+
+inputs:
+  github-token:
+    description: Token used to read the pull request and to write the label and comment. Defaults to the workflow token.
+    required: false
+    default: ${{ github.token }}
+  label-needs-review:
+    description: Label applied when the pull request needs a line-by-line review.
+    required: false
+    default: needs line-by-line review
+  label-skim-ok:
+    description: Label applied when a skim is enough.
+    required: false
+    default: skim ok
+  lines-changed-threshold:
+    description: Added plus deleted lines that count as one large-diff signal.
+    required: false
+    default: "400"
+  stack-review-threshold:
+    description: How many stack signals (dependencies, a large diff, missing tests) force a line-by-line review. Auth, secrets, and CI ignore this number.
+    required: false
+    default: "2"
+  skip-human:
+    description: When true, a pull request with no coding-agent signal is left unchanged. When false, every pull request is classified.
+    required: false
+    default: "true"
+  include-dependency-bots:
+    description: When false, Dependabot and Renovate are left unchanged. When true, they are classified with the same risk rules.
+    required: false
+    default: "false"
+
+outputs:
+  decision:
+    description: skip, needs line-by-line review, or skim ok.
+  reasons:
+    description: Plain-English signals that fired, separated by a vertical bar. On skip, this is why the action left the pull request unchanged.
+
+runs:
+  using: node24
+  main: dist/index.js
