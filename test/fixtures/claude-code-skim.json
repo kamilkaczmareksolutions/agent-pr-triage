@@ -1,0 +1,37 @@
+{
+  "snapshot": {
+    "authorLogin": "octocat",
+    "body": "Generated with Claude Code",
+    "commits": [
+      {
+        "message": "Format names\n\nCo-authored-by: Claude <noreply@anthropic.com>",
+        "authorName": "Mona",
+        "authorEmail": "mona@github.com",
+        "authorLogin": "octocat",
+        "committerName": "Mona",
+        "committerEmail": "mona@github.com",
+        "committerLogin": "octocat"
+      }
+    ],
+    "files": [
+      {
+        "path": "src/names.ts",
+        "additions": 6,
+        "deletions": 0
+      },
+      {
+        "path": "src/names.test.ts",
+        "additions": 4,
+        "deletions": 0
+      }
+    ]
+  },
+  "expect": {
+    "outcome": "skim_ok",
+    "signals": [],
+    "commentIncludes": [
+      "Claude Code",
+      "Skim ok."
+    ]
+  }
+}

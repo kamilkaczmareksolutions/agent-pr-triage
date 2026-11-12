@@ -1,0 +1,29 @@
+{
+  "snapshot": {
+    "authorLogin": "octocat",
+    "body": "Fix a typo in the readme",
+    "commits": [
+      {
+        "message": "Fix a typo",
+        "authorName": "Mona",
+        "authorEmail": "mona@github.com",
+        "authorLogin": "octocat",
+        "committerName": "Mona",
+        "committerEmail": "mona@github.com",
+        "committerLogin": "octocat"
+      }
+    ],
+    "files": [
+      {
+        "path": "README.md",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  "expect": {
+    "outcome": "skip",
+    "signals": [],
+    "commentIncludes": []
+  }
+}

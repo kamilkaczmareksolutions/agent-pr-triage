@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="3000" viewBox="0 0 720 3000">
+<g>
+        <rect x="0" y="0" width="720" height="150" fill="#5a1818"/>
+        <rect x="0" y="0" width="12" height="150" fill="#e65040"/>
+        <text x="36" y="36" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Auth Paths</text>
+        <text x="36" y="62" fill="#e65040" font-size="16" font-family="ui-sans-serif, sans-serif">needs line-by-line review</text>
+        <text x="36" y="78" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">The diff touches authentication, login, session, or cookie code (src/auth/login.ts, src/auth/login.test.ts).</text>
+      </g>
+<g>
+        <rect x="0" y="150" width="720" height="150" fill="#5a1818"/>
+        <rect x="0" y="150" width="12" height="150" fill="#e65040"/>
+        <text x="36" y="186" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Ci Workflow</text>
+        <text x="36" y="212" fill="#e65040" font-size="16" font-family="ui-sans-serif, sans-serif">needs line-by-line review</text>
+        <text x="36" y="228" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">The diff changes a GitHub Actions workflow (.github/workflows/ci.yml).</text>
+      </g>
+<g>
+        <rect x="0" y="300" width="720" height="150" fill="#124828"/>
+        <rect x="0" y="300" width="12" height="150" fill="#30b460"/>
+        <text x="36" y="336" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Claude Code Skim</text>
+        <text x="36" y="362" fill="#30b460" font-size="16" font-family="ui-sans-serif, sans-serif">skim ok</text>
+        <text x="36" y="378" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">No risk signals fired.</text>
+      </g>
+<g>
+        <rect x="0" y="450" width="720" height="150" fill="#124828"/>
+        <rect x="0" y="450" width="12" height="150" fill="#30b460"/>
+        <text x="36" y="486" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Codex Trailer Skim</text>
+        <text x="36" y="512" fill="#30b460" font-size="16" font-family="ui-sans-serif, sans-serif">skim ok</text>
+        <text x="36" y="528" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">No risk signals fired.</text>
+      </g>
+<g>
+        <rect x="0" y="600" width="720" height="150" fill="#124828"/>
+        <rect x="0" y="600" width="12" height="150" fill="#30b460"/>
+        <text x="36" y="636" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Copilot Agent Skim</text>
+        <text x="36" y="662" fill="#30b460" font-size="16" font-family="ui-sans-serif, sans-serif">skim ok</text>
+        <text x="36" y="678" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">No risk signals fired.</text>
+      </g>
+<g>
+        <rect x="0" y="750" width="720" height="150" fill="#124828"/>
+        <rect x="0" y="750" width="12" height="150" fill="#30b460"/>
+        <text x="36" y="786" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Dependabot Included</text>
+        <text x="36" y="812" fill="#30b460" font-size="16" font-family="ui-sans-serif, sans-serif">skim ok</text>
+        <text x="36" y="828" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">The diff changes a dependency manifest or lockfile (package.json).</text>
+      </g>
+<g>
+        <rect x="0" y="900" width="720" height="150" fill="#242830"/>
+        <rect x="0" y="900" width="12" height="150" fill="#8c94a0"/>
+        <text x="36" y="936" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Dependabot Noop</text>
+        <text x="36" y="962" fill="#8c94a0" font-size="16" font-family="ui-sans-serif, sans-serif">skip</text>
+        <text x="36" y="978" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">Dependabot and Renovate stay out of the coding-agent path unless include-dependency-bots is on.</text>
+      </g>
+<g>
+        <rect x="0" y="1050" width="720" height="150" fill="#124828"/>
+        <rect x="0" y="1050" width="12" height="150" fill="#30b460"/>
+        <text x="36" y="1086" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Dependencies Only</text>
+        <text x="36" y="1112" fill="#30b460" font-size="16" font-family="ui-sans-serif, sans-serif">skim ok</text>
+        <text x="36" y="1128" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">The diff changes a dependency manifest or lockfile (package.json, package-lock.json).</text>
+      </g>
+<g>
+        <rect x="0" y="1200" width="720" height="150" fill="#124828"/>
+        <rect x="0" y="1200" width="12" height="150" fill="#30b460"/>
+        <text x="36" y="1236" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Empty Diff</text>
+        <text x="36" y="1262" fill="#30b460" font-size="16" font-family="ui-sans-serif, sans-serif">skim ok</text>
+        <text x="36" y="1278" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">No risk signals fired.</text>
+      </g>
+<g>
+        <rect x="0" y="1350" width="720" height="150" fill="#124828"/>
+        <rect x="0" y="1350" width="12" height="150" fill="#30b460"/>
+        <text x="36" y="1386" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Huge Diff</text>
+        <text x="36" y="1412" fill="#30b460" font-size="16" font-family="ui-sans-serif, sans-serif">skim ok</text>
+        <text x="36" y="1428" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">The diff changes 20014 lines, which is at least the 400 line threshold.</text>
+      </g>
+<g>
+        <rect x="0" y="1500" width="720" height="150" fill="#5a1818"/>
+        <rect x="0" y="1500" width="12" height="150" fill="#e65040"/>
+        <text x="36" y="1536" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Human Classified</text>
+        <text x="36" y="1562" fill="#e65040" font-size="16" font-family="ui-sans-serif, sans-serif">needs line-by-line review</text>
+        <text x="36" y="1578" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">The diff touches authentication, login, session, or cookie code (src/auth/login.ts, src/auth/login.test.ts).</text>
+      </g>
+<g>
+        <rect x="0" y="1650" width="720" height="150" fill="#242830"/>
+        <rect x="0" y="1650" width="12" height="150" fill="#8c94a0"/>
+        <text x="36" y="1686" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Human Noop</text>
+        <text x="36" y="1712" fill="#8c94a0" font-size="16" font-family="ui-sans-serif, sans-serif">skip</text>
+        <text x="36" y="1728" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">No coding-agent signal was found, so this pull request was left unchanged.</text>
+      </g>
+<g>
+        <rect x="0" y="1800" width="720" height="150" fill="#124828"/>
+        <rect x="0" y="1800" width="12" height="150" fill="#30b460"/>
+        <text x="36" y="1836" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Large Diff</text>
+        <text x="36" y="1862" fill="#30b460" font-size="16" font-family="ui-sans-serif, sans-serif">skim ok</text>
+        <text x="36" y="1878" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">The diff changes 460 lines, which is at least the 400 line threshold.</text>
+      </g>
+<g>
+        <rect x="0" y="1950" width="720" height="150" fill="#124828"/>
+        <rect x="0" y="1950" width="12" height="150" fill="#30b460"/>
+        <text x="36" y="1986" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Missing Tests</text>
+        <text x="36" y="2012" fill="#30b460" font-size="16" font-family="ui-sans-serif, sans-serif">skim ok</text>
+        <text x="36" y="2028" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">Production code changed and no test file changed.</text>
+      </g>
+<g>
+        <rect x="0" y="2100" width="720" height="150" fill="#5a1818"/>
+        <rect x="0" y="2100" width="12" height="150" fill="#e65040"/>
+        <text x="36" y="2136" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Mixed Auth And Dependencies</text>
+        <text x="36" y="2162" fill="#e65040" font-size="16" font-family="ui-sans-serif, sans-serif">needs line-by-line review</text>
+        <text x="36" y="2178" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">The diff touches authentication, login, session, or cookie code (src/auth/session.ts, src/auth/session.test.ts).</text><text x="36" y="2200" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">The diff changes a dependency manifest or lockfile (package.json).</text>
+      </g>
+<g>
+        <rect x="0" y="2250" width="720" height="150" fill="#5a1818"/>
+        <rect x="0" y="2250" width="12" height="150" fill="#e65040"/>
+        <text x="36" y="2286" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Mixed Soft Signals</text>
+        <text x="36" y="2312" fill="#e65040" font-size="16" font-family="ui-sans-serif, sans-serif">needs line-by-line review</text>
+        <text x="36" y="2328" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">The diff changes a dependency manifest or lockfile (go.mod).</text><text x="36" y="2350" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">Production code changed and no test file changed.</text>
+      </g>
+<g>
+        <rect x="0" y="2400" width="720" height="150" fill="#242830"/>
+        <rect x="0" y="2400" width="12" height="150" fill="#8c94a0"/>
+        <text x="36" y="2436" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Renovate Noop</text>
+        <text x="36" y="2462" fill="#8c94a0" font-size="16" font-family="ui-sans-serif, sans-serif">skip</text>
+        <text x="36" y="2478" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">Dependabot and Renovate stay out of the coding-agent path unless include-dependency-bots is on.</text>
+      </g>
+<g>
+        <rect x="0" y="2550" width="720" height="150" fill="#5a1818"/>
+        <rect x="0" y="2550" width="12" height="150" fill="#e65040"/>
+        <text x="36" y="2586" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Secrets Env</text>
+        <text x="36" y="2612" fill="#e65040" font-size="16" font-family="ui-sans-serif, sans-serif">needs line-by-line review</text>
+        <text x="36" y="2628" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">The diff touches secrets, credentials, or a private key (.env).</text>
+      </g>
+<g>
+        <rect x="0" y="2700" width="720" height="150" fill="#5a1818"/>
+        <rect x="0" y="2700" width="12" height="150" fill="#e65040"/>
+        <text x="36" y="2736" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Secrets Private Key</text>
+        <text x="36" y="2762" fill="#e65040" font-size="16" font-family="ui-sans-serif, sans-serif">needs line-by-line review</text>
+        <text x="36" y="2778" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">The diff touches secrets, credentials, or a private key (id_ed25519).</text>
+      </g>
+<g>
+        <rect x="0" y="2850" width="720" height="150" fill="#124828"/>
+        <rect x="0" y="2850" width="12" height="150" fill="#30b460"/>
+        <text x="36" y="2886" fill="#f4f4f0" font-size="22" font-family="ui-sans-serif, sans-serif">Skim Ok Agent</text>
+        <text x="36" y="2912" fill="#30b460" font-size="16" font-family="ui-sans-serif, sans-serif">skim ok</text>
+        <text x="36" y="2928" fill="#f4f4f0" font-size="16" font-family="ui-sans-serif, sans-serif">No risk signals fired.</text>
+      </g>
+</svg>

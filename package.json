@@ -1,0 +1,27 @@
+{
+  "name": "agent-pr-triage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GitHub Action that decides whether an agent-authored pull request needs a line-by-line review.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "esbuild src/index.ts --bundle --platform=node --target=node20 --format=esm --outfile=dist/index.js",
+    "demo": "node --experimental-strip-types scripts/generate-demo.ts",
+    "check": "npm test && npm run typecheck && npm run build && npm run demo && git diff --exit-code -- dist/index.js docs/demo.gif docs/demo.svg"
+  },
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "esbuild": "^0.25.12",
+    "gifenc": "^1.0.3",
+    "typescript": "^5.9.3"
+  }
+}

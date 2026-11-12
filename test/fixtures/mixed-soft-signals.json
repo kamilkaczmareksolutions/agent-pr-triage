@@ -1,0 +1,40 @@
+{
+  "snapshot": {
+    "authorLogin": "cursoragent",
+    "body": "Made with Cursor",
+    "commits": [
+      {
+        "message": "Update\n\nCo-authored-by: Cursor <cursoragent@cursor.com>",
+        "authorName": "Cursor",
+        "authorEmail": "cursoragent@cursor.com",
+        "authorLogin": "cursoragent",
+        "committerName": "Cursor",
+        "committerEmail": "cursoragent@cursor.com",
+        "committerLogin": "cursoragent"
+      }
+    ],
+    "files": [
+      {
+        "path": "src/app.ts",
+        "additions": 12,
+        "deletions": 0
+      },
+      {
+        "path": "go.mod",
+        "additions": 3,
+        "deletions": 0
+      }
+    ]
+  },
+  "expect": {
+    "outcome": "needs_line_by_line",
+    "signals": [
+      "dependencies",
+      "missing_tests"
+    ],
+    "commentIncludes": [
+      "dependency manifest",
+      "no test file changed"
+    ]
+  }
+}

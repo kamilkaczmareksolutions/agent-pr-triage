@@ -1,0 +1,37 @@
+{
+  "snapshot": {
+    "authorLogin": "octocat",
+    "body": "",
+    "commits": [
+      {
+        "message": "Rename field\n\nCo-authored-by: Codex <codex@openai.com>",
+        "authorName": "Mona",
+        "authorEmail": "mona@github.com",
+        "authorLogin": "octocat",
+        "committerName": "Mona",
+        "committerEmail": "mona@github.com",
+        "committerLogin": "octocat"
+      }
+    ],
+    "files": [
+      {
+        "path": "src/field.ts",
+        "additions": 3,
+        "deletions": 1
+      },
+      {
+        "path": "src/field.test.ts",
+        "additions": 2,
+        "deletions": 0
+      }
+    ]
+  },
+  "expect": {
+    "outcome": "skim_ok",
+    "signals": [],
+    "commentIncludes": [
+      "Codex",
+      "Skim ok."
+    ]
+  }
+}

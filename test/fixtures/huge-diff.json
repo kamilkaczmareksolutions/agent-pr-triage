@@ -1,0 +1,38 @@
+{
+  "snapshot": {
+    "authorLogin": "cursoragent",
+    "body": "Made with Cursor",
+    "commits": [
+      {
+        "message": "Update\n\nCo-authored-by: Cursor <cursoragent@cursor.com>",
+        "authorName": "Cursor",
+        "authorEmail": "cursoragent@cursor.com",
+        "authorLogin": "cursoragent",
+        "committerName": "Cursor",
+        "committerEmail": "cursoragent@cursor.com",
+        "committerLogin": "cursoragent"
+      }
+    ],
+    "files": [
+      {
+        "path": "src/format.ts",
+        "additions": 20000,
+        "deletions": 10
+      },
+      {
+        "path": "src/format.test.ts",
+        "additions": 4,
+        "deletions": 0
+      }
+    ]
+  },
+  "expect": {
+    "outcome": "skim_ok",
+    "signals": [
+      "large_diff"
+    ],
+    "commentIncludes": [
+      "20014 lines"
+    ]
+  }
+}

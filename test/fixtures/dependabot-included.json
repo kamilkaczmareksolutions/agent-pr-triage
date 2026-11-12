@@ -1,0 +1,37 @@
+{
+  "policy": {
+    "includeDependencyBots": true
+  },
+  "snapshot": {
+    "authorLogin": "dependabot[bot]",
+    "body": "Bump lodash",
+    "commits": [
+      {
+        "message": "Bump lodash",
+        "authorName": "dependabot[bot]",
+        "authorEmail": "dependabot@github.com",
+        "authorLogin": "dependabot[bot]",
+        "committerName": "dependabot[bot]",
+        "committerEmail": "dependabot@github.com",
+        "committerLogin": "dependabot[bot]"
+      }
+    ],
+    "files": [
+      {
+        "path": "package.json",
+        "additions": 2,
+        "deletions": 2
+      }
+    ]
+  },
+  "expect": {
+    "outcome": "skim_ok",
+    "signals": [
+      "dependencies"
+    ],
+    "commentIncludes": [
+      "dependency bot",
+      "dependency manifest"
+    ]
+  }
+}

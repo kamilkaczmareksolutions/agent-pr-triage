@@ -1,0 +1,34 @@
+{
+  "snapshot": {
+    "authorLogin": "dependabot[bot]",
+    "body": "Bump lodash",
+    "commits": [
+      {
+        "message": "Bump lodash",
+        "authorName": "dependabot[bot]",
+        "authorEmail": "49699333+dependabot[bot]@users.noreply.github.com",
+        "authorLogin": "dependabot[bot]",
+        "committerName": "GitHub",
+        "committerEmail": "noreply@github.com",
+        "committerLogin": "dependabot[bot]"
+      }
+    ],
+    "files": [
+      {
+        "path": "package.json",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "package-lock.json",
+        "additions": 10,
+        "deletions": 4
+      }
+    ]
+  },
+  "expect": {
+    "outcome": "skip",
+    "signals": [],
+    "commentIncludes": []
+  }
+}
