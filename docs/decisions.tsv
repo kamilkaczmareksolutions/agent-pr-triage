@@ -1,0 +1,6 @@
+time	point	decision	reason
+2026-11-12T09:40:00Z	how	Treat the repository as greenfield	The only tracked files were README.md and the MIT LICENSE
+2026-11-12T09:55:00Z	design	Keep one classify function and one rule table in src/engine.ts	The first sketch split detection, forces, and stacking across many files. A reviewer should be able to read the decision in one place
+2026-11-12T10:00:00Z	design	Count stack signals instead of giving a large diff weight 2	Auth, secrets, and CI are the only signals that force review alone. A large diff is one stack signal, so it stays skim ok until a second stack signal fires
+2026-11-12T10:00:00Z	design	Check Dependabot and Renovate before agent trailers	A dependency bot stays off the coding-agent path even when the body mentions Claude Code, unless include-dependency-bots is true
+2026-11-12T10:06:00Z	demo	Generate docs/demo.gif and docs/demo.svg from test/fixtures	The demo is the script output, so npm run demo reproduces the files the README shows
